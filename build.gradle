@@ -79,7 +79,7 @@ task wrapper(type: Wrapper) {
     gradleVersion = gradleWrapperVersion
 }
 
-war {
-    version = '' // no version
-    baseName="website"
+jar {
+	version = '' // no version
+	baseName="website"
 }
