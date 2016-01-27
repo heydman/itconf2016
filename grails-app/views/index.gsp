@@ -32,6 +32,8 @@
 	        <li>Groovy version: ${GroovySystem.getVersion()}</li>
 	        <li>JVM version: ${System.getProperty('java.version')}</li>
 	        <li>Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</li>
+	        <li>Jeremy's System Property #1: ${System.getProperty('jeremy.param1')}</li>
+	        <li>Jeremy's System Property #2: ${System.getProperty('jeremy.param2')}</li>
 	    </ul>
 	    <h1>Artefacts</h1>
 	    <ul>
