@@ -1,0 +1,1 @@
+Stop-AzureWebsite –Name heydman
