@@ -1,22 +1,27 @@
 <!doctype html>
 <html>
     <head>
-        <meta name="layout" content="main"/>
-        <title>Welcome to Grails</title>
+        <meta name="layout" content="sbadmindemo"/>
+        <title>Bootstrap Elements</title>
     </head>
     <body>
-    
-    <div class="container">
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
-        
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            Home
+                            <small>Subheading</small>
+                        </h1>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-6">
+
 	    <div id="status" role="complementary">
 	    <h1>Application Status</h1>
 	    <ul>
@@ -42,9 +47,14 @@
 	        </g:each>
 	    </ul>
 	    </div>
-      </div>
 
-    </div> <!-- /container -->
+
+                    </div>
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container-fluid -->
 
     </body>
 </html>
