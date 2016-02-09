@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name="layout" content="sbadmindemo"/>
-        <title>Bootstrap Elements</title>
+        <title>Welcome to Grails</title>
     </head>
     <body>
 
