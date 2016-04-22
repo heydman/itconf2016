@@ -36,7 +36,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">SB Admin</a>
+                <a class="navbar-brand" href="index.html">Demo App</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -143,22 +143,24 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li class="active">
-                        <a href="index"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                        <a href="/demo/index"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <%--
+                    <li>
+                        <a href="/demo/charts"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+                    </li>
+                    --%>
+                    <li>
+                        <a href="/demo/tables"><i class="fa fa-fw fa-table"></i> Tables</a>
                     </li>
                     <li>
-                        <a href="charts"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+                        <a href="/demo/forms"><i class="fa fa-fw fa-edit"></i> Forms</a>
                     </li>
                     <li>
-                        <a href="tables"><i class="fa fa-fw fa-table"></i> Tables</a>
+                        <a href="/demo/bootstrapElements"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
                     </li>
                     <li>
-                        <a href="forms"><i class="fa fa-fw fa-edit"></i> Forms</a>
-                    </li>
-                    <li>
-                        <a href="bootstrapElements"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
-                    </li>
-                    <li>
-                        <a href="bootstrapGrid"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
+                        <a href="/demo/bootstrapGrid"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
                     </li>
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
